@@ -8,29 +8,37 @@
   <title>vite-shop</title>
 </head>
 
-<body class="bg-main-color text-text-color dark:bg-rose-950 dark:text-rose-200 h-ful">
+<body class="bg-main-color text-text-color h-ful">
   <div class="grid grid-template-rows-[auto 1fr auto] min-h-full container m-auto">
     <header>
-      <h1 class="text-28 text-rose-600 font-bold uppercase">Брелоки на любой вкус</h1>
+      <div>
+        <img class="logo" src="public/img/calista-logo-name.svg" alt="Логотип">
+      </div>
+      <ul>
+        <li><a href="">НОВИНКИ</a></li>
+        <li><a href="">КАТАЛОГ</a></li>
+        <li><a href="">ИДЕИ ДЛЯ ОБРАЗОВ</a></li>
+        <li><a href="">ВДОХНОВЕНИЕ</a></li>
+        <li class="sale"><a href="">SALE</a></li>
+      </ul>
     </header>
     <main>
-      <div class="catalog grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">
-            <a href=""
-              class="inline-block hover:text-white hover:scale-110 origin-center transition duration-300 focus:text-rose-800">Брелок
-              кошка
-              розовая</a>
+      <div class="catalog grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3">
+        <div class="card">
+          <img class="card-img" src="public/img/cardigan-1.jpg" alt="Кардиган">
+          <h3 class="font-bold text-black-600">
+            <a href="" class="title-card font-light inline-block hover:text-[#D0011B] hover: transition duration-300 focus:text-rose-800">Укороченный
+              кардиган
+            </a>
           </h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p class="text-[24px] text-[#000]">550 &#8381;</p>
+          <p class="font-bold text-[16px] text-[#D0011B]">3 990 &#8381;</p>
         </div>
+
+
+
         <div class="card border-2 border-rose-600 rounded-lg p-4 ">
           <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
+          <h3 class="text-rose-600">Брелок кошка розовая</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
             corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
             eaque!</p>

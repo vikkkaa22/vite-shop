@@ -2,9 +2,38 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-main-color: rgb(255, 225, 243);
-  --color-text-color: rgb(238, 37, 80);
-  --text-28:1.75rem;
+  --color-main-color: white;
+  --color-text-color: black;
+  --color-text-price-color: D0011B;
+  --text-28: 1.75rem;
   --gap-my: 60px;
 }
 
+.logo {
+  width: 216px;
+}
+
+.sale {
+  color: #cc0000 !important;
+}
+
+.card {
+  width: 415px;
+  padding: 0 21px 0;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+  margin-top: 0px;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+.card-img {
+  width: 371px;
+}
+
+.title-card {
+  margin: 0;
+  padding: 5px 0 15px;
+}
