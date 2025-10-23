@@ -1,129 +1,210 @@
 <!doctype html>
-<html lang="en" class="h-full">
+<html lang="ru" class="h-full">
 
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>vite-shop</title>
+  <title>calista</title>
 </head>
 
 <body class="bg-main-color text-text-color h-ful">
   <div class="grid grid-template-rows-[auto 1fr auto] min-h-full container m-auto">
-    <header>
+    <header class="head">
       <div>
         <img class="logo" src="public/img/calista-logo-name.svg" alt="Логотип">
       </div>
-      <ul>
-        <li><a href="">НОВИНКИ</a></li>
-        <li><a href="">КАТАЛОГ</a></li>
-        <li><a href="">ИДЕИ ДЛЯ ОБРАЗОВ</a></li>
-        <li><a href="">ВДОХНОВЕНИЕ</a></li>
-        <li class="sale"><a href="">SALE</a></li>
+      <ul class="head-text">
+        <li><a href="">Новинки</a></li>
+        <li><a href="">Каталог</a></li>
+        <li><a href="">Идеи для образов</a></li>
+        <li><a href="">Вдохновение</a></li>
+        <li class="sale"><a href="">Sale</a></li>
       </ul>
     </header>
     <main>
-      <div class="catalog grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3">
+      <div class="catalog grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-3">
         <div class="card">
-          <img class="card-img" src="public/img/cardigan-1.jpg" alt="Кардиган">
+          <img class="card-img" src="public/img/card1.jpg" alt="Кардиган">
           <h3 class="font-bold text-black-600">
-            <a href="" class="title-card font-light inline-block hover:text-[#D0011B] hover: transition duration-300 focus:text-rose-800">Укороченный
-              кардиган
+            <a href="#"
+              class="title-card font-light text-[13px] inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Расклешенные
+              джинсы с клепками
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">1 990 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] line-through">5 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card2.jpg" alt="Куртка">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Утепленная
+              демисезонная куртка
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">10 490 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">14 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card3.jpg" alt="Жилет">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Костюмный
+              жилет на молнии
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">4 990 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">8 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card4.jpg" alt="Брюки чёрные">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Зауженные
+              брюки из фланели
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">9 990 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">12 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card5.jpg" alt="Брюки бежевые">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Зауженные
+              брюки из фланели
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">9 990 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">12 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card6.jpg" alt="Жакет">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Жакет
+              из фланели с поясом
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">15 990 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">20 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card7.jpg" alt="Платье">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Трикотажное
+              платье из хлопка
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">4 990 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">11 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card8.jpg" alt="Жилет">
+          <h3 class="font-bold text-black-600">
+            <a href="#"
+              class="title-card font-light inline-block hover:text-[#808080] hover: transition duration-300 focus:text-rose-800">Утепленный
+              жилет
+            </a>
+          </h3>
+          <div class="price-wrapper">
+            <span class="old-price font-bold text-[16px] text-[#D0011B]">8 490 &#8381;</span>
+            <span class="current-price font-light text-[14px] text-[#808080] text-decoration-line: line-through">11 990
+              &#8381;.</span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card1.jpg" alt="Кардиган">
+          <h3 class="font-bold text-black-600">
+            <a href=""
+              class="title-card font-light inline-block hover:text-[#D0011B] hover: transition duration-300 focus:text-rose-800">Расклешенные
+              джинсы с клепками
             </a>
           </h3>
           <p class="font-bold text-[16px] text-[#D0011B]">3 990 &#8381;</p>
         </div>
 
 
+        <div class="card">
+          <img class="card-img" src="public/img/card1.jpg" alt="Кардиган">
+          <h3 class="font-bold text-black-600">
+            <a href=""
+              class="title-card font-light inline-block hover:text-[#D0011B] hover: transition duration-300 focus:text-rose-800">Расклешенные
+              джинсы с клепками
+            </a>
+          </h3>
+          <p class="font-bold text-[16px] text-[#D0011B]">3 990 &#8381;</p>
+        </div>
 
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
+
+        <div class="card">
+          <img class="card-img" src="public/img/card1.jpg" alt="Кардиган">
+          <h3 class="font-bold text-black-600">
+            <a href=""
+              class="title-card font-light inline-block hover:text-[#D0011B] hover: transition duration-300 focus:text-rose-800">Расклешенные
+              джинсы с клепками
+            </a>
+          </h3>
+          <p class="font-bold text-[16px] text-[#D0011B]">3 990 &#8381;</p>
         </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
+
+
+        <div class="card">
+          <img class="card-img" src="public/img/card1.jpg" alt="Кардиган">
+          <h3 class="font-bold text-black-600">
+            <a href=""
+              class="title-card font-light inline-block hover:text-[#D0011B] hover: transition duration-300 focus:text-rose-800">Расклешенные
+              джинсы с клепками
+            </a>
+          </h3>
+          <p class="font-bold text-[16px] text-[#D0011B]">3 990 &#8381;</p>
         </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
-        <div class="card border-2 border-rose-600 rounded-lg p-4 ">
-          <img class="rounded-md" src="public/img/cat.png" alt="Кошка">
-          <h3 class="font-bold text-rose-600">Брелок кошка розовая</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, accusamus. Eveniet sequi nisi
-            corrupti error culpa vel quod, cumque voluptate fugiat, at beatae laborum dolore nulla ex debitis minima
-            eaque!</p>
-          <p>550 &#8381;</p>
-        </div>
+
+
       </div>
   </div>
   </div>

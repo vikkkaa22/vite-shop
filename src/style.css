@@ -1,3 +1,4 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -9,18 +10,56 @@
   --gap-my: 60px;
 }
 
+.head {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  margin: 70px;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul li {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 30px;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .logo {
   width: 216px;
+  display: flex;
+  justify-content: center;
 }
 
 .sale {
   color: #cc0000 !important;
+  text-transform: uppercase;
+}
+
+.catalog {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .card {
+  font-family: "Roboto", sans-serif;
   width: 415px;
   padding: 0 21px 0;
-  display: inline-block;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   position: relative;
   opacity: 1;
@@ -30,10 +69,22 @@
 }
 
 .card-img {
-  width: 371px;
+  width: 100%;
+  height: 500px;
+  aspect-ratio: 2;
+  object-fit: cover;
 }
 
 .title-card {
-  margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
   padding: 5px 0 15px;
+}
+
+.price-wrapper {
+  margin: 0px;
+}
+
+.current-price {
+  margin: 10px;
 }
