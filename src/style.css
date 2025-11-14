@@ -10,9 +10,9 @@
   --gap-my: 60px;
 }
 
+
 .head {
   font-family: "Roboto", sans-serif;
-  display: flex;
   text-align: center;
   margin: 70px;
 }
@@ -21,24 +21,24 @@
   font-family: "Roboto", sans-serif;
 }
 
-ul li {
+
+ul.head-text li {
   font-family: "Roboto", sans-serif;
-  display: inline-block;
-  margin-right: 10px;
+  font-size: 14px;
+  display: inline;
   text-transform: uppercase;
   padding: 30px;
-
+  list-style: none;
 }
 
-ul {
+ul.head-text {
   list-style: none;
   padding: 0;
 }
 
 .logo {
   width: 216px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .sale {
@@ -50,12 +50,12 @@ ul {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  padding: 0 10px;
+  /*  padding: 0 10px; */
 }
 
 .card {
   font-family: "Roboto", sans-serif;
-  width: 415px;
+  width: 371px;
   padding: 0 21px 0;
   margin-top: 20px;
   display: flex;
@@ -87,4 +87,78 @@ ul {
 
 .current-price {
   margin: 10px;
+}
+
+
+
+/*---------------------карточка товара покупка------------------*/
+
+.breadcrumb {
+  width: 960px;
+  margin: 0 0px 20px;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  font-size: 12px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb-item {
+  color: #727272;
+}
+
+ul.breadcrumb li+li:before {
+  color: black;
+  content: "/\00a0";
+}
+
+.breadcrumb-item.active {
+  color: #000000;
+}
+
+.shopping {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 990px;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.photo-slider {
+  width: 98px;
+  padding: 0 15px;
+
+}
+
+.img-shop {
+  width: 455px;
+  padding: 0 15px;
+
+}
+
+.sticky {
+  position: sticky;
+  top: 160px;
+  width: 412px;
+  padding: 0 15px;
+}
+
+.text-shop {
+  color: #1a1a1a;
+  font-size: 16px;
+  letter-spacing: 0.9px;
+  text-align: left;
+  text-transform: initial;
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 10px;
+  font-family: inherit;
+  line-height: 1.2;
 }
