@@ -14,21 +14,67 @@
 
 <body class="bg-main-color text-text-color h-ful">
   <div class="grid grid-template-rows-[auto 1fr auto] min-h-full container m-auto">
+    <div class="wrap">
+
+    </div>
     <header class="head">
       <div>
         <img class="logo" src="public/img/calista-logo-name.svg" alt="Логотип">
       </div>
       <div>
-      <ul class="head-text">
-        <li><a href="">Новинки</a></li>
-        <li><a href="">Каталог</a></li>
-        <li><a href="">Идеи для образов</a></li>
-        <li><a href="">Вдохновение</a></li>
-        <li class="sale"><a href="">Sale</a></li>
-      </ul>
+        <ul class="head-text">
+          <li><a href="">Новинки</a></li>
+          <li><a href="">Каталог</a></li>
+          <li><a href="">Идеи для образов</a></li>
+          <li><a href="">Вдохновение</a></li>
+          <li class="sale"><a href="">Sale</a></li>
+        </ul>
       </div>
     </header>
     <main>
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Sale</li>
+      </ul>
+      <div class="filter">
+        <h2>Фильтры</h2>
+        <form id="form-filter" action="">
+          <div class="form__item">
+            <div>
+              <label for="search">Введите название модели</label>
+            </div>
+            <div>
+              <input id="search" name="search" type="text" placeholder="Поиск" required>
+            </div>
+          </div>
+
+          <div class="form__item">
+            <h3>Цвет</h3>
+            <div class="filter-color">
+              <div class="filter-color__item">
+                <input class="color-radio" type="radio" id="color-blue">
+                <label class="color-label" for="color-blue" style="background-color: rgb(12, 12, 107);" tabindex="0"></label>
+              </div>
+              <div class="filter-color__item">
+                <input class="color-radio" type="radio" id="color-gray">
+                <label class="color-label" for="color-gray" style="background-color:gray;" tabindex="0"></label>
+              </div>
+              <div class="filter-color__item">
+                <input class="color-radio" type="radio" id="color-brown">
+                <label class="color-label" for="color-brown" style="background-color:brown;" tabindex="0"></label>
+              </div>
+              <div class="filter-color__item">
+                <input class="color-radio" type="radio" id="color-liteblue">
+                <label class="color-label" for="color-liteblue" style="background-color:lightblue;" tabindex="0"></label>
+              </div>
+            </div>
+
+          </div>
+          <div class="form__item">
+            <input class="form__btn" type="submit" value="Применить">
+          </div>
+        </form>
+      </div>
       <div class="catalog grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
         <div class="card">
           <img class="card-img" src="public/img/card1.jpg" alt="Кардиган">
